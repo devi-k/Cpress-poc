@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jun 26 14:34:05 IST 2024","Wed Jun 26 14:34:05 IST 2024","29","","Sample test","","Sample test","Example Test Case","Example Test Case",""
+"broken","Wed Jun 26 14:34:02 IST 2024","Wed Jun 26 14:34:05 IST 2024","2355","","Sample test","","Sample test","Invalid","Invalid",""
+"passed","Wed Jun 26 14:33:58 IST 2024","Wed Jun 26 14:34:02 IST 2024","3925","","Sample test","","Sample test","Valid","Valid",""

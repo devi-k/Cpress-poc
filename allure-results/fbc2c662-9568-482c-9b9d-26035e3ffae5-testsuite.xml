@@ -1,0 +1,81 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1719392638709' stop='1719392645095'>
+    <name>Sample test</name>
+    <title>Sample test</title>
+    <test-cases>
+        <test-case start='1719392638709' status='passed' stop='1719392642634'>
+            <name>Valid</name>
+            <title>Valid</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1719392642653' status='broken' stop='1719392645008'>
+            <name>Invalid</name>
+            <title>Invalid</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>`cy.visit()` failed trying to load:
+                
+                https://exampl.io/todo
+                
+                We attempted to make an http request to this URL but the request failed without a response.
+                
+                We received this error at the network level:
+                
+                  > Error: getaddrinfo ENOTFOUND exampl.io
+                
+                Common situations why this would fail:
+                  - you don't have internet access
+                  - you forgot to run / boot your web server
+                  - your web server isn't accessible
+                  - you have weird network configuration settings on your computer</message>
+                <stack-trace>CypressError: `cy.visit()` failed trying to load:
+                
+                https://exampl.io/todo
+                
+                We attempted to make an http request to this URL but the request failed without a response.
+                
+                We received this error at the network level:
+                
+                  > Error: getaddrinfo ENOTFOUND exampl.io
+                
+                Common situations why this would fail:
+                  - you don't have internet access
+                  - you forgot to run / boot your web server
+                  - your web server isn't accessible
+                  - you have weird network configuration settings on your computer
+                    at &lt;unknown> (https://example.cypress.io/__cypress/runner/cypress_runner.js:131507:74)
+                    at visitFailedByErr (https://example.cypress.io/__cypress/runner/cypress_runner.js:130906:12)
+                    at &lt;unknown> (https://example.cypress.io/__cypress/runner/cypress_runner.js:131506:11)
+                    at tryCatcher (https://example.cypress.io/__cypress/runner/cypress_runner.js:1807:23)
+                    at Promise._settlePromiseFromHandler (https://example.cypress.io/__cypress/runner/cypress_runner.js:1519:31)
+                    at Promise._settlePromise (https://example.cypress.io/__cypress/runner/cypress_runner.js:1576:18)
+                    at Promise._settlePromise0 (https://example.cypress.io/__cypress/runner/cypress_runner.js:1621:10)
+                    at Promise._settlePromises (https://example.cypress.io/__cypress/runner/cypress_runner.js:1697:18)
+                    at _drainQueueStep (https://example.cypress.io/__cypress/runner/cypress_runner.js:2407:12)
+                    at _drainQueue (https://example.cypress.io/__cypress/runner/cypress_runner.js:2400:9)
+                    at Async._drainQueues (https://example.cypress.io/__cypress/runner/cypress_runner.js:2416:5)
+                    at Async.drainQueues (https://example.cypress.io/__cypress/runner/cypress_runner.js:2286:14)
+                From Your Spec Code:
+                    at Context.eval (webpack://cypresspoc/./cypress/e2e/first_test.cy.js:25:7)
+                
+                From Node.js Internals:
+                  Error: getaddrinfo ENOTFOUND exampl.io
+                      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1719392645066' status='passed' stop='1719392645095'>
+            <name>Example Test Case</name>
+            <title>Example Test Case</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
