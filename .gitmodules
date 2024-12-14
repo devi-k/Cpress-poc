@@ -1,0 +1,3 @@
+[submodule "airtest_project"]
+	path = airtest_project
+	url = https://github.com/devi-k/airtest_project
